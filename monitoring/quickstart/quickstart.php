@@ -32,9 +32,9 @@ use Google\Protobuf\Timestamp;
 
 // These variables are set by the App Engine environment. To test locally,
 // ensure these are set or manually change their values.
-$projectId = getenv('GCLOUD_PROJECT') ?: 'YOUR_PROJECT_ID';
-$instanceId = '1234567890123456789';
-$zone = 'us-central1-f';
+$projectId = getenv('GCLOUD_PROJECT') ?: 'precise-truck-742';
+$instanceId = 'cps-loadtest-cps-gcloud-python-publisher-4-s49f';
+$zone = 'us-central1-a';
 
 /**
  * Adds the JSON client as the stub function
